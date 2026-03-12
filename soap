@@ -1,0 +1,46 @@
+
+
+Skip to content
+Using Gmail with screen readers
+1 of 2,589
+(no subject)
+Inbox
+
+Priti Talavanekar
+Attachments
+8:40 PM (2 hours ago)
+to me
+
+
+ 2 Attachments
+  •  Scanned by Gmail
+create web application 
+file > new project > java web > web application
+
+project name : SOAPService
+
+create SOAP web service 
+right click on project > new > web service >
+
+web service name : CalculateService
+package : com.soap
+
+write web service 
+update - CalculateService.java > add necessary method
+
+deploy it 
+
+
+
+client 
+
+new > web service client 
+access service to consume
+
+create JSP files to display output 
+
+deploy 
+
+run JSP file 
+SOAP.txt
+Displaying SOAP.txt.
