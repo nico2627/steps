@@ -1,0 +1,49 @@
+open netbeans > go to service tab > expand databases > right click on Java DB > start server
+
+connect to database > databases > right click on "jdbc.derby...." > connect
+
+create table
+
+command - 
+
+create REST web project
+file > new project > java web > web application 
+StudentRESTService
+
+create REST service class
+right click on project > new > RESTful web services from patterns > simple root resources > next 
+
+Resource Package : com.student.rest
+Path             : student
+Class Name       : StudentService
+MIME Type        : application/xml
+
+Click Finish  > NetBeans will create:  === StudentService.java
+
+Create Database Connection Class
+
+Right click: Source Packages
+Click: New → Java Package
+Package name: com.student.db
+Click Finish
+
+Now right click this package: com.student.db
+Click:  New → Java Class
+Class Name:  DBConnection
+Click Finish
+
+
+
+Add JDBC Connection Code : DBConnection.java file
+
+
+update - StudentService.java
+code 
+
+
+deploy and run the project
+
+web services 
+create JSP file to perform CRUD 
+
+run JSP file
